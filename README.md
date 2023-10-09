@@ -9,6 +9,8 @@ $ sudo apt install meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev \
 
 $ sudo apt install i3 rofi polybar nautilus
 
+# Download i3wm version >= 4.22
+
 mkdir build cd build
 meson --prefix /usr/local
 ninja
