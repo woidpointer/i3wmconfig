@@ -203,3 +203,5 @@ exec_always --no-startup-id $HOME/.config/i3/polybar/launch.sh
 exec --no-startup-id nitrogen --set-scaled --restore
 
 bindsym $mod+Shift+p exec "rofi -show power-menu -modi power-menu:$HOME/.config/i3/rofi-power-menu"
+
+bindsym $mod+b exec "$HOME/.config/rofi-buku/bin/rofi-buku"
