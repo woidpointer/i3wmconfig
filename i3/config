@@ -205,3 +205,4 @@ exec --no-startup-id nitrogen --set-scaled --restore
 bindsym $mod+Shift+p exec "rofi -show power-menu -modi power-menu:$HOME/.config/i3/rofi-power-menu"
 
 bindsym $mod+b exec "$HOME/.config/rofi-buku/bin/rofi-buku"
+bindsym $mod+Shift+g exec "$HOME/develop/workbench/werkzeug/rofi-vjira.sh"
